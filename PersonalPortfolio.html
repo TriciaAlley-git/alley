@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <div class="logo">Personal Portfolio</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+				<li><a href="#education">Skills</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#location">Location</a></li>
+                <li><a href="#quote">Quote</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Welcome to My Portfolio</h2>
+            <p>Hi! I'm Tricia Alley Bautista, a passionate student navigating the exciting world of networks and security while exploring the vast landscape of Information Technology.</p>
+            <a href="#about" class="btn">Learn More About Me</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>I am a 2nd year BSIT student learning web application development this semester, creating artistic and interactive websites. This portfolio showcases my growth and creative projects.</p>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <h2>Educational Background</h2>
+        <p>I am currently studying Information Technology at University of the Cordilleras. I have a keen interest in web development and design, constantly exploring new technologies and tools to expand my knowledge.</p>
+    </section>
+	
+	<section id="skills" class="skills">
+		<h2>My Skills</h2>
+		<div class="skill-item">
+			<h3>HTML</h3>
+			<div class="progress-bar">
+				<div class="progress html"></div>
+			</div>
+		</div>
+		<div class="skill-item">
+			<h3>CSS</h3>
+			<div class="progress-bar">
+				<div class="progress css"></div>
+			</div>
+		</div>
+		<div class="skill-item">
+			<h3>Java</h3>
+			<div class="progress-bar">
+				<div class="progress java"></div>
+			</div>
+		</div>
+		<div class="skill-item">
+			<h3>Web Design</h3>
+			<div class="progress-bar">
+				<div class="progress web-design"></div>
+			</div>
+		</div>
+
+    <!-- Hobbies Section -->
+    <section id="hobbies" class="hobbies">
+        <h2>My Hobbies</h2>
+			<h3>Baking and Trying New Food</h3>
+			<div class="gallery">
+				<div class="gallery-item">
+					<img src="photos/food1.jpg" alt="Food 1">
+				</div>
+				<div class="gallery-item">
+					<img src="photos/food2.jpg" alt="Food 2">
+				</div>
+				<div class="gallery-item">
+					<img src="photos/food3.jpg" alt="Food 3">
+				</div>
+				<div class="gallery-item">
+					<img src="photos/food4.jpg" alt="Food 4">
+				</div>
+				<div class="gallery-item">
+					<img src="photos/food5.jpg" alt="Food 5">
+				</div>
+			</div>
+        
+			<h3>Bonding with Family and Fur Babies</h3>
+			<div class="gallery">
+				<div class="gallery-item">
+					<img src="photos/bond1.jpg" alt="Bond 1">
+				</div>
+				<div class="gallery-item">
+					<img src="photos/bond2.jpg" alt="Bond 2">
+				</div>
+				<div class="gallery-item">
+					<img src="photos/bond3.jpg" alt="Bond 3">
+				</div>
+				<div class="gallery-item">
+					<img src="photos/bond4.jpg" alt="Bond 4">
+				</div>
+				<div class="gallery-item">
+					<img src="photos/bond5.jpg" alt="Bond 5">
+				</div>
+			</div>
+    </section>
+
+    <!-- Quote Section -->
+    <section id="quote" class="quote">
+        <h2>Favorite Quote</h2>
+        <blockquote>
+            <p><i>“When defeat comes, accept it as a signal that your plans are not sound, rebuild those plans, and set sail once more toward your coveted goal.”</i> </p>
+			<p>― Napoleon Hill</p>
+        </blockquote>
+    </section>
+
+    <!-- Location Section -->
+    <section id="location" class="location">
+        <h2>My Location</h2>
+        <p>I am based in <strong>Baguio City, Philippines</strong>.</p>
+        <div class="map-container">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3834.123456789!2d120.570000!3d16.420000!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3391a157c401d0e3%3A0x74156768a9f4425c!2sLa%20Chesa%2C%20Irisan%2C%20Baguio%20City!5e0!3m2!1sen!2sph!4v1708386004823!5m2!1sen!2sph" 
+                width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <p><strong>📍 Marked Location: La Chesa, Irisan, Baguio City</strong></p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact</h2>
+        <p>Feel free to reach out! Connect with me via email or social media.</p>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Tricia Alley Bautista. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
